@@ -1,5 +1,5 @@
 class Spree::ToFriendMailer < ActionMailer::Base
-  default from: Spree::Store.default.mail_from_address || ''
+  default from: Spree::Store.default.mail_from_address || 'admin@example.com'
 
   def mail_to_friend(object, mail)
     @object = object
