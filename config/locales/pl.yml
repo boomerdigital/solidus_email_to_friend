@@ -19,8 +19,8 @@ pl:
       visit_page: "Odwiedź %{url} żeby zobaczyć więcej produktów"
     captcha:
       captcha_settings: "Ustawienia Captcha"
-      public_key: "Klucz publiczny"
-      private_key: "Klucz prywatny"
+      site_key: "Klucz publiczny"
+      secret_key: "Klucz prywatny"
       manage_keys: "Zarządzaj kluczami (re)captcha"
       use_captcha: "Używać mechanizmu Captcha?"
       theme: "Styl"

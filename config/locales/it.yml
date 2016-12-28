@@ -19,8 +19,8 @@ it:
       visit_page: "Per altri acquisti visita %{url}"
     captcha:
       captcha_settings: "Impostazioni Captcha"
-      public_key: "Chiave pubblica"
-      private_key: "Chiave privata"
+      site_key: "Chiave pubblica"
+      secret_key: "Chiave privata"
       manage_keys: "Gestisci le tue chiavi (re)captcha"
       use_captcha: "Usare Captcha?"
       theme: "Tema"

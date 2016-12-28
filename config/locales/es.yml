@@ -19,8 +19,8 @@ es:
       visit_page: "Para ir de compras más en línea, visite %{url}"
     captcha:
       captcha_settings: "Configuracion de Captcha"
-      public_key: "Llave pública"
-      private_key: "Llave privada"
+      site_key: "Llave pública"
+      secret_key: "Llave privada"
       manage_keys: "Administrar tus llaves de recaptcha."
       use_captcha: "Usar Captcha?"
       theme: "Tema"

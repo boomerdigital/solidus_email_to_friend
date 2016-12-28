@@ -19,8 +19,8 @@ sv:
       visit_page: "För mer online shopping, besök %{url}"
     captcha:
       captcha_settings: "Captcha Inställningar"
-      public_key: "Public nyckel"
-      private_key: "Privat nyckel"
+      site_key: "Public nyckel"
+      secret_key: "Privat nyckel"
       manage_keys: "Hantera dina (re)captcha nycklar"
       use_captcha: "Använd Captcha?"
       theme: "Tema"

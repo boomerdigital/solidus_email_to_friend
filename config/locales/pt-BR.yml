@@ -19,8 +19,8 @@ pt-BR:
       visit_page: "Para compras on-line mais, visite %{url}"
     captcha:
       captcha_settings: "Configurações do Captcha "
-      public_key: "Chave pública"
-      private_key: "Chave privada"
+      site_key: "Chave pública"
+      secret_key: "Chave privada"
       manage_keys: "Gerencie suas chaves do recaptcha"
       use_captcha: "Utilize Captcha?"
       theme: "Tema"

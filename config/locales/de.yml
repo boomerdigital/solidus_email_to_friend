@@ -19,8 +19,8 @@ de:
       visit_page: "Weitere Online-Shopping, Besuch %{url}"
     captcha:
       captcha_settings: "Captcha Einstellungen"
-      public_key: "Öffentlichter Schlüssel (Public key)"
-      private_key: "Privater Schlüssel (Private key)"
+      site_key: "Öffentlichter Schlüssel (Public key)"
+      secret_key: "Privater Schlüssel (Private key)"
       manage_keys: "Ihre (re)captcha Schlüssel verwalten"
       use_captcha: "Verwenden Captcha?"
       theme: "Thema"

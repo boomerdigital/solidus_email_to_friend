@@ -29,7 +29,7 @@ RSpec.feature 'Email to friend', :js do
 
   context 'with captcha' do
     background do
-      Spree::Captcha::Config.use_captcha = true
+      Spree::Captcha::Config[:use_captcha] = true
       click_link 'Email a friend'
     end
 

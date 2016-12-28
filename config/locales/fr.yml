@@ -19,8 +19,8 @@ fr:
       visit_page: "Pour le shopping plus en ligne, visitez le site %{url}"
     captcha:
       captcha_settings: "Captcha Settings"
-      public_key: "Clé publique"
-      private_key: "Clé privée"
+      site_key: "Clé publique"
+      secret_key: "Clé privée"
       manage_keys: "Gestion de vos clé (re)captcha"
       use_captcha: "Utilisez Captcha?"
       theme: "Theme"
