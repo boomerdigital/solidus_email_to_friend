@@ -45,6 +45,6 @@ class Spree::MailToFriend
   private
 
   def site_url
-    Spree::Store.current.try(:url)
+    Spree::Store.default.try(:url)
   end
 end
