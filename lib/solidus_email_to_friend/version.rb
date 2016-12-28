@@ -1,5 +1,5 @@
-module SpreeEmailToFriend
-  # Returns the version of the currently loaded SpreeEmailToFriend as a
+module SolidusEmailToFriend
+  # Returns the version of the currently loaded SolidusEmailToFriend as a
   # <tt>Gem::Version</tt>.
   def self.version
     Gem::Version.new VERSION::STRING
