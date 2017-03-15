@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
   s.add_dependency "solidus_core", [">= 1.0.0", "< 3"]
   s.add_dependency 'recaptcha', '>= 0.3.1'
   s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'rails-controller-testing'
   s.add_development_dependency 'sqlite3', '~> 1.3.10'
   s.add_development_dependency 'factory_girl', '~> 4.5'
   s.add_development_dependency 'capybara', '~> 2.4.4'
@@ -34,7 +33,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'shoulda-matchers', '~> 2.8'
   s.add_development_dependency 'email_spec', '>= 1.6.0'
   s.add_development_dependency 'simplecov', '~> 0.8.2'
-  s.add_development_dependency 'database_cleaner', '~> 1.4.0'
+  s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'sass-rails', '~> 5.0.0'
   s.add_development_dependency 'ffaker', '>= 1.32.0'
