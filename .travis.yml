@@ -2,10 +2,6 @@ sudo: false
 language: ruby
 rvm:
   - 2.3.1
-before_install:
-  - rvm @default,@global do gem uninstall bundler -x
-  - gem install bundler --version '~> 1.13.0'
-  - bundle --version
 env:
   matrix:
     - SOLIDUS_BRANCH=v1.0 DB=postgres
