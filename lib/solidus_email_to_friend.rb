@@ -1,4 +1,6 @@
-require 'spree_core'
+require 'solidus_core'
+require 'solidus_support'
+require 'deface'
 require 'solidus_email_to_friend/engine'
 require 'solidus_email_to_friend/version'
 require 'coffee_script'

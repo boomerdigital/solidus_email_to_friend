@@ -11,9 +11,16 @@ rescue LoadError
 end
 
 require 'rspec/rails'
-require 'shoulda-matchers'
+require 'shoulda/matchers'
 require 'ffaker'
 require 'rails-controller-testing'
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
+end
 
 RSpec.configure do |config|
   config.fail_fast = false

@@ -24,20 +24,24 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
 
   s.add_dependency "solidus_core", [">= 1.2.0", "< 3"]
+  s.add_dependency "solidus_support"
   s.add_dependency 'recaptcha', '>= 0.3.1'
+  s.add_dependency "deface", '~> 1.0'
+
   s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'sqlite3', '~> 1.3.10'
-  s.add_development_dependency 'factory_girl', '~> 4.5'
-  s.add_development_dependency 'capybara', '~> 2.4.4'
-  s.add_development_dependency 'poltergeist', '~> 1.6.0'
-  s.add_development_dependency 'shoulda-matchers', '~> 2.8'
-  s.add_development_dependency 'email_spec', '>= 1.6.0'
-  s.add_development_dependency 'simplecov', '~> 0.8.2'
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'factory_bot', '~> 4.5'
+  s.add_development_dependency 'capybara', '~> 2.4'
+  s.add_development_dependency 'capybara-screenshot'
+  s.add_development_dependency 'poltergeist', '~> 1.5'
+  s.add_development_dependency 'shoulda-matchers'
+  s.add_development_dependency 'email_spec'
+  s.add_development_dependency 'simplecov'
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'coffee-rails'
-  s.add_development_dependency 'sass-rails', '~> 5.0.0'
-  s.add_development_dependency 'ffaker', '>= 1.32.0'
-  s.add_development_dependency 'guard-rspec', '>= 4.3.1'
-  s.add_development_dependency 'pry-rails', '>= 0.3.2'
-  s.add_development_dependency 'rubocop', '>= 0.24.1'
+  s.add_development_dependency 'sass-rails'
+  s.add_development_dependency 'ffaker'
+  s.add_development_dependency 'guard-rspec'
+  s.add_development_dependency 'pry-rails'
+  s.add_development_dependency 'rubocop'
 end

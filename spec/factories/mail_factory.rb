@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :mail, class: Spree::MailToFriend do
     host               'localhost'
     sender_name        { FFaker::Name.name }
