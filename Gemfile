@@ -8,6 +8,9 @@ if branch == 'master' || branch >= "v2.3"
   gem 'rails', '~> 5.1.4'
 elsif branch >= "v2.0"
   gem 'rails', '~> 5.0.6'
+else
+  gem "rails", '~> 4.2.7'
+  gem "rails_test_params_backport", group: :test
 end
 
 gem 'pg', '~> 0.21'

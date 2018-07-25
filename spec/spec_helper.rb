@@ -12,8 +12,6 @@ end
 
 require 'rspec/rails'
 require 'shoulda/matchers'
-require 'ffaker'
-require 'rails-controller-testing'
 
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
@@ -35,11 +33,6 @@ RSpec.configure do |config|
     expectations.syntax = :expect
   end
 
-  [:controller, :view, :request].each do |type|
-    config.include ::Rails::Controller::Testing::TestProcess, :type => type
-    config.include ::Rails::Controller::Testing::TemplateAssertions, :type => type
-    config.include ::Rails::Controller::Testing::Integration, :type => type
-  end
 end
 
 Dir[File.join(File.dirname(__FILE__), 'support/**/*.rb')].each { |file| require file }
