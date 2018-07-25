@@ -2,14 +2,12 @@ RSpec.feature 'Email to friend', :js do
   given(:product) { create(:product) }
   given(:mail)    { build(:mail) }
 
-  background do
-    visit spree.product_path(product)
-    expect(page).to have_text product.name
-    expect(page).to have_link 'Email a friend'
-  end
 
   context 'without captcha' do
     background do
+      visit spree.product_path(product)
+      expect(page).to have_text product.name
+      expect(page).to have_link 'Email a friend'
       Spree::Captcha::Config.use_captcha = false
       click_link 'Email a friend'
     end
@@ -29,6 +27,9 @@ RSpec.feature 'Email to friend', :js do
 
   context 'with captcha' do
     background do
+      visit spree.product_path(product)
+      expect(page).to have_text product.name
+      expect(page).to have_link 'Email a friend'
       Spree::Captcha::Config[:use_captcha] = true
       click_link 'Email a friend'
     end
