@@ -9,16 +9,23 @@ if branch == 'master' || branch >= "v2.3"
 elsif branch >= "v2.0"
   gem 'rails', '~> 5.0.6'
 else
-  gem "rails", '~> 4.2.7'
-  gem "rails_test_params_backport", group: :test
+  gem 'rails', '~> 4.2.7'
 end
 
 gem 'pg', '~> 0.21'
 gem 'mysql2', '~> 0.4.10'
 
-group :test do
+group :development, :test do
   if branch == 'master' || branch >= "v2.0"
     gem "rails-controller-testing"
+  else
+    gem "rails_test_params_backport"
+  end
+
+  if branch < "v2.5"
+    gem 'factory_bot', '4.10.0'
+  else
+    gem 'factory_bot', '> 4.10.0'
   end
 end
 

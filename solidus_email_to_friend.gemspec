@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'sqlite3'
-  s.add_development_dependency 'factory_bot', '~> 4.5'
   s.add_development_dependency 'capybara', '~> 2.4'
   s.add_development_dependency 'capybara-screenshot'
   s.add_development_dependency 'poltergeist', '~> 1.5'
@@ -43,4 +42,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'pry-rails'
   s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'ffaker'
 end
