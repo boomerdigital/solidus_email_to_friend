@@ -12,6 +12,7 @@ end
 
 require 'rspec/rails'
 require 'shoulda/matchers'
+require 'ffaker'
 
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
